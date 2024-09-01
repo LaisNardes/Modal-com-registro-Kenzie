@@ -1,0 +1,53 @@
+dialog {
+    width: 500px;
+    height: 400px;
+    
+}
+
+#modalController {
+    background-color:  #cdccf0;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.form__modal-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0.25rem;
+    padding: 15px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    width: 80%;
+}
+
+.form__modal-item:focus,
+.form__modal-item:active {
+  border: none;
+  outline: 1px solid #3d36ba;
+}
+.toCloseModal {
+    /* margin-left: 50%; 
+    margin-top: 15%; */
+    padding: 1em;
+    background-color: white;
+    border-radius: 0.25rem;
+   
+}
+    
+
+.registerNewUser{
+    margin-left: 0.50rem;
+    padding: 1em; 
+    border-radius: 0.25rem;
+    background-color: #6c63ff;
+    color: white;
+}
+
+.toAlignButtons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2.8em;
+    
+}
+

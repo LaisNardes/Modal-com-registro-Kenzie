@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="./src/styles/globalStyles.css" />
     <link rel="stylesheet" href="./src/styles/index.css" />
+    <link rel="stylesheet" href="./src/styles/modal.css">
     <script src="./src/scripts/modal.js" defer></script>
 
     <title>Modal Registro</title>
@@ -34,12 +35,27 @@
           <a href="#" target="_blank" class="form__forgot-pass"
             >Esqueceu a senha?</a
           >
-          <a href="#" target="_blank" class="form__register-link">
+          <a href="#" target="_self" class="form__register-link">
             Ainda não tem conta? Cadastre-se aqui!
           </a>
           <button class="form__login-btn">Entrar</button>
         </form>
       </div>
+      <dialog id="modalController">
+        <div class="modalContainer">
+          <form class="registerContainer">
+            <input type="text" class="form__modal-item" placeholder="Nome"/>
+            <input type="text" class="form__modal-item" placeholder="Sobrenome"/>
+            <input type="text" class="form__modal-item" placeholder="Contato ou E-mail">
+            <input type="password" class="form__modal-item" placeholder="Crie sua senha">
+            <div class="toAlignButtons">
+            <button class="toCloseModal">Fechar Modal</button>
+            <button class="registerNewUser">Cadastrar</button>
+          </div>
+          </form>
+        </div>
+
+      </dialog>
     </main>
   </body>
 </html>
